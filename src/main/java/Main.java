@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
         JFrame window;
-        window = new JFrame("Головне меню");
+        window = new JFrame("Main menu");
         window.setSize(550, 400);
         window.add(new MainMenu());
         window.setLocationRelativeTo(null);
